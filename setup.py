@@ -146,5 +146,8 @@ setuptools.setup(
     package_data=package_data,
     include_package_data=True,
     install_requires=['numpy', 'scipy', 'nose', 'pymongo', 'six', 'networkx', 'future'],
+    extras_require={
+        'dill': 'dill'
+    },
     zip_safe=False
 )
